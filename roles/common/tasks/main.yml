@@ -1,0 +1,11 @@
+- name: update the server
+  yum:
+    name: "*"
+    state: latest
+
+- name: add vip in hosts
+  lineinfile:
+    path: /etc/hosts
+    line: '10.10.186.100 lb'
+
+
