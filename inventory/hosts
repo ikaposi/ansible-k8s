@@ -1,3 +1,6 @@
+[init]
+kbs-mstr1
+
 [masters]
 k8s-mstr[1:2]
 
