@@ -24,8 +24,7 @@
     - ca-csr.json
 
 - name: create ca certificate
-  shell: /usr/local/bin/cfssl gencert -initca /root/ca-csr.json | /usr/local/bin/cfssljson -bare ca
+  command: /usr/local/bin/cfssl gencert -initca /root/ca-csr.json
   args:
     creates: /root/ca-key.pem
-    chdir: /root
   
