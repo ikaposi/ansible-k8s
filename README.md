@@ -2,6 +2,7 @@
 Ansible playbook for recreating kubernetes the hard way
 
 sources used:
+
 https://github.com/kelseyhightower/kubernetes-the-hard-way/blob/master/docs/08-bootstrapping-kubernetes-controllers.md
 
 https://github.com/Praqma/LearnKubernetes/blob/master/kamran/Kubernetes-The-Hard-Way-on-BareMetal.md
