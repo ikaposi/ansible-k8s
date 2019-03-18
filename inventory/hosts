@@ -1,5 +1,5 @@
 [init]
-kbs-mstr1
+k8s-mstr1
 
 [masters]
 k8s-mstr[1:2]

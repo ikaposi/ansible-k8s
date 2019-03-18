@@ -3,6 +3,7 @@
 - hosts: all
   roles:
     - common
+
 - hosts: init
-  roles
+  roles:
     - cert
